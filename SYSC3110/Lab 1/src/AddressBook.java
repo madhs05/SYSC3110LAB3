@@ -50,6 +50,6 @@ public class AddressBook {
         for (BuddyInfo buddy : book.getBuddies()) {
             System.out.println(buddy.getName() + " - " + buddy.getAddress() + " - " + buddy.getPhone_number());
         }
-
+        System.out.println("Hello Buddy");
     }
 }
