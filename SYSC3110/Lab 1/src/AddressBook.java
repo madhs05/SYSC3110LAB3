@@ -25,8 +25,8 @@ public class AddressBook {
         AddressBook book = new AddressBook();
 
         BuddyInfo homer = new BuddyInfo("Homer", "9 Windwing Drive", "8712779999");
-        BuddyInfo marge = new BuddyInfo("Marge", "9 Windwing WAYYYY", "8712778888");
-        BuddyInfo someone = new BuddyInfo("someone", "9 Willow Drive", "8398");
+        BuddyInfo marge = new BuddyInfo("marge", "9 Windwing WAYYYY", "8712778888");
+        BuddyInfo someone = new BuddyInfo("SigmaBoyOmar", "9 Willow Drive", "8398");
         book.addBuddy(homer);
         book.addBuddy(marge);
 
@@ -50,7 +50,7 @@ public class AddressBook {
         for (BuddyInfo buddy : book.getBuddies()) {
             System.out.println(buddy.getName() + " - " + buddy.getAddress() + " - " + buddy.getPhone_number());
         }
-        System.out.println("Hello Buddy");
+        System.out.println("Hello Friend");
 
 
 
